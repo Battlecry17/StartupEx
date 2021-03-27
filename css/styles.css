@@ -1,0 +1,187 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h2, h3{
+    font-weight: 700;
+}
+
+/* Headings */
+
+.big-heading{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.iphone-mockup{
+    position: absolute;
+    right: 30%;
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.btn-light{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Sections */
+
+.colored-section{
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Features-section */
+
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.sec-2-text{
+    padding: 0 5%;
+    color: #8f8f8f;
+    margin: 15px 0 10px;
+}
+
+/* Icons */
+
+.i-features{
+    color: #ef8172;
+    margin: 0 auto 3%;
+}
+
+.i-features:hover{
+    color: #ff4c68;
+}
+
+
+/* Navigation bar */
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    padding: 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+ /* Middle-features */
+
+ #features{
+     position: relative;
+ }
+
+
+ /* Testimonial section */
+
+
+ #testimonials{
+    background-color: #ef8172;
+ }
+
+ .testimonial-image{
+     width: 10%;
+     border-radius: 100%;
+     margin: 20px;
+ }
+
+ #press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+ }
+
+ .press-logo{
+     margin: 20px 20px 50px;
+     width: 15%;
+ }
+
+ /* Pricing section */
+
+#pricing{
+    padding: 100px;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* CTA and footer section */
+
+
+.icon-footer{
+    margin: 0 10px 20px;
+}
+
+#copyright{
+    color: #8f8f8f;
+    font-weight: 600;
+}
+
+@media (max-width: 1028px){
+
+
+#title{
+    text-align: center;
+}
+
+.iphone-mockup{
+    position: static;
+    transform: none;
+}
+
+}
